@@ -1,7 +1,6 @@
 package dev.sarthakpandey.productservice.exceptionhandlers;
-
-import com.sst.productservicesst.dtos.ExceptionDto;
-import com.sst.productservicesst.exceptions.ProductNotFoundException;
+import dev.sarthakpandey.productservice.dtos.ExceptionDto;
+import dev.sarthakpandey.productservice.ProductNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
